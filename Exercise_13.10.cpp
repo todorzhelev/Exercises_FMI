@@ -19,9 +19,9 @@ const float pi = 3.14159265;
 
 float GetCircleArea(int radius)
 {
-	float result = pi * radius * radius;
+	float area = pi * radius * radius;
 
-	return result;
+	return area;
 }
 
 float GetDistance(int x1, int y1, int x2, int y2)
@@ -29,9 +29,9 @@ float GetDistance(int x1, int y1, int x2, int y2)
 	int dx = x1 - x2;
 	int dy = y1 - y2;
 
-	float result = sqrt(dx*dx + dy*dy);
+	float distance = sqrt(dx*dx + dy*dy);
 
-	return result;
+	return distance;
 }
 
 
