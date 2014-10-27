@@ -79,7 +79,7 @@ int main()
 	//}
 
 		////diagram for the switch above. We cant fall down, because we have break in every case
-		////			________
+		////			    ________
 		////1			___|________|___
 		////2			___|________|___
 		////3			___|________|___
@@ -106,7 +106,7 @@ int main()
 	}*/
 
 		////diagram for the switch above. If a is 1, we will start falling untill we reach 5, because we have break there.
-		////			________
+		////			    ________
 		////1			   |_ _ _ _ |
 		////3			   |_ _ _ _ |
 		////4			   |_ _ _ _ |
