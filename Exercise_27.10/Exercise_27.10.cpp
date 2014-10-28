@@ -183,7 +183,7 @@ int main()
 	//// and we will enter the loop
 	//// if we have break inside loop we can leave the loop regardless of the conditions
 	//int a;
-	//while(0)
+	//while(1000)
 	//{
 	//	cout << "Press 1 for free money" << endl;
 	//	cout << "Press 2 for chocolate" << endl;
@@ -302,26 +302,26 @@ int main()
 
 	///////////////////////////////////////////////////////////////////////////////////////////////////////
 
-	int a;
-	cin >> a;
-	
-	bool bIsPrime = true;
+	//int a;
+	//cin >> a;
+	//
+	//bool bIsPrime = true;
 
-	//improved check. We test only the first sqrt(a) numbers. If a is 1001 this is maximum 30 iterations
-	for( int i = 2; i <= sqrt(a); i++ )
-	{
-		if( a % i == 0 )
-		{
-			cout << a <<" is not prime. It can be divided by " << i << endl;
-			bIsPrime = false;
-			break;
-		}
-	}
+	////improved check. We test only the first sqrt(a) numbers. If a is 1001 this is maximum 30 iterations
+	//for( int i = 2; i <= sqrt(a); i++ )
+	//{
+	//	if( a % i == 0 )
+	//	{
+	//		cout << a <<" is not prime. It can be divided by " << i << endl;
+	//		bIsPrime = false;
+	//		break;
+	//	}
+	//}
 
-	if( bIsPrime == true )
-	{
-		cout << a << " is prime" << endl;
-	}
+	//if( bIsPrime == true )
+	//{
+	//	cout << a << " is prime" << endl;
+	//}
 
 	system("pause");
 
