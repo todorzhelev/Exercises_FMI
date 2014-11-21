@@ -8,13 +8,13 @@ int main()
 
 	//first way to initialize two-dimensional arrays
 	int arr[3][3] = { 1,7,8,
-					  6,5,4,
-					  2,15,6 };
+			  6,5,4,
+			  2,15,6 };
 
 	//second way to initialize two-dimensional arrays
 	int arr1[3][3] = { {1,7,8},
-					  {6,5,4},
-					  {2,15,6} };
+			   {6,5,4},
+			   {2,15,6} };
 
 	//we need nested loops the initialize the array.
 	
