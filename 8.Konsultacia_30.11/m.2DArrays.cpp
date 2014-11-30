@@ -4,10 +4,10 @@ using namespace std;
 int main()
 {
 	int mat[4][4] = {4,12,8,6,
-					 3,1,5,9,
-					 14,17,16,-20,
-					 21,19,100,666
-					};
+			3,1,5,9,
+			14,17,16,-20,
+			21,19,100,666
+			};
 
 
 	//sumata na elementite po glavnia diagonal
