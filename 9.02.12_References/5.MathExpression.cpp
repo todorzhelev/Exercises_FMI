@@ -2,7 +2,7 @@
 using namespace std;
 
 //we want to calculate the following expression: (1)(1+2)(1+2+3)(1+2+3+4)...(1+2+3+4+..+n)
-//for n=4 the result must be 180, for n=5 - 2700
+//for n=4 the result must be 180, for n=5 the result must be 2700
 int main()
 {
 	//without nested loop
