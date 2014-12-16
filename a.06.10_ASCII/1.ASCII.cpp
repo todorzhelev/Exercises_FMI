@@ -2,6 +2,7 @@
 
 using namespace std;
 
+//every symbol is represented by code in the ASCII table
 int main()
 {
 	char symb = 'a';
