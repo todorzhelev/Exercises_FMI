@@ -15,7 +15,7 @@ int GetFibNumber(int n)
 		return 1;
 	}
 
-	return GetFibNumber(n-1) + GetFibNumber(n-2);;
+	return GetFibNumber(n-1) + GetFibNumber(n-2);
 }
 
 int main()
