@@ -57,8 +57,9 @@ int main()
 
 	isPrime ? cout << number3 << " e prosto" << endl : cout << number3 << " e sustavno";
 
-	//kodut otgore e zamenen s tri izvikvania na funkciata IsPrime
-	//koeto pravi kodut mnogo po chetim i iasen
+	//kodut otgore e zamenen s tri izvikvania na funkciata IsPrime, koeto go pravi mnogo po-chetim i iasen. 
+	//Sushto taka ako sme dopusnali greshka v algorituma shte triabva da ia opravim samo 
+	//vutre vuv funkciata, a ne na vsichi mesta, kudeto se povtaria koda
 	IsPrime(number1);
 	IsPrime(number2);
 	IsPrime(number3);
