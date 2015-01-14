@@ -11,22 +11,33 @@ int main()
 	//stoinostta na purvia element, toest 66
 
 	cout << *arr << endl;
-
+	
+	///////////////////////////////////////////////////////////////////////////
+	
 	cout << "Address of first element " << arr << " " << &arr[0] << endl;
 
+	///////////////////////////////////////////////////////////////////////////
+	
 	cout << *(arr+1) << endl; //izkarva stoinostta na vtoria element v masiva
 
+	///////////////////////////////////////////////////////////////////////////
+	
 	//arr[2] na po-nisko nivo e *(arr+2)
 	//po tazi logika ako napishem 2[arr] to shte se prevede do *(2+arr)
 	//koeto shte vurne stoinostta na tretia element. Po nikakva prichina 2[arr] ne triabva da se polzva.
 	//vsichi izvikvania po-dolu izkarvat stoinostta na tretia element - 12
 	cout << arr[2] << " " << *(arr+2) << " " << 2[arr] << endl;
 
+	///////////////////////////////////////////////////////////////////////////
+	
+	//obhojdame masiva
 	for( int i = 0; i < 5; i++ )
 	{
 		cout << *(arr+i) << endl;
 	}
 
+	///////////////////////////////////////////////////////////////////////////
+	
 	//izkarvame stoinostta na edna kletka izvun masiva
 	//stoinostta v tazi kletka moje da se polzva ot drugo prilojenie
 	//ili druga chast ot nashata programa i tova koeto pravim ne e pravilno
