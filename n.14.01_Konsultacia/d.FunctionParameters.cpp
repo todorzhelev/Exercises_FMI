@@ -22,12 +22,12 @@ void GetDotProduct2(int x1,int y1, int x2, int y2,int result)
 
 int main()
 {
-	//izchisliavame skalararnoto priozvedenie na dva vektora
+	//izchisliavame skalarnoto proizvedenie na dva vektora
 
 	int vec1x = 2, vec1y = 3;
 	int vec2x = 1, vec2y = 7;
 
-	int result = GetDotProduct(vec1x,vec1y,vec2x,vec2y); //podavame stoinostite na parametrite
+	int result = GetDotProduct(vec1x,vec1y,vec2x,vec2y);
 
 	cout << result << endl;
 
