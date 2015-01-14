@@ -25,7 +25,7 @@ int main()
 	////////////////////////////////////////////////////////////////
 	
 	int* pVarr1,pVarr2; //pVarr1 e ukazatel, pVarr2 e normalna promenliva ot tip int
-	int* pVarr3,*pVarr4 = &var2; //pVarr3 e nainicializiran ukazatel, a pVarr4 go inicializirame s adresa na var2
+	int* pVarr3,*pVarr4 = &var2; //pVarr3 e neinicializiran ukazatel, a pVarr4 go inicializirame s adresa na var2
 
 	////////////////////////////////////////////////////////////////
 	
