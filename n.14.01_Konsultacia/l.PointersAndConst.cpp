@@ -4,9 +4,15 @@ using namespace std;
 
 int main()
 {
+	//za da razberem tochno kakuv e ukazateliat mojem da chetem
+	//otdiasno naliavo, kato zameniame * s dumite "ukazatel kum"
+	//ili ako imame * const s dumite "konstanten ukazatel kum"
+	//naprimer ako imame int * const pA = &a; to pA e konstanten ukazatel kum int
+	
 	//////////////////////////////////////////////////////////////
 
-	//1. Ukazatel kum konstanta. Chrez ukazatelia ne mojem da promeniam promenlivata
+	//1. Ukazatel kum konstanta. 
+	//Chrez ukazatelia ne mojem da promeniame promenlivata,
 	//no mojem da nasochim ukazatelia kum druga konstanta
 	const int b = 8;
 	const int c = 777;
@@ -19,8 +25,8 @@ int main()
 	////////////////////////////////////////////////////////////////
 
 	//2. Konstanten ukazatel kum promenliva. 
-	//Ne mojem da nasochim ukazatelia kum druga promenliva
-	//no mojem da promenim stoinostta na tekushtata promenliva chrez ukazatelia.
+	//Ne mojem da nasochim ukazatelia kum druga promenliva,
+	//no mojem da promenim stoinostta na promenlivata, kum koiato sochi ukazateliat.
 	int a = 5;
 	int d = 999;
 
