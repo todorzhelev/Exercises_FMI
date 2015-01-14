@@ -33,7 +33,7 @@ int main()
 
 	//3. Konstanten ukazatel kum konstantna promenliva. 
 	//Ne mojem da nasochim ukazatelia kum druga promenliva
-	//i ne mojem da promeniame stoinostta na promenlivata chre ukazatelia
+	//i ne mojem da promeniame stoinostta na promenlivata chrez ukazatelia
 
 	const int f = 500;
 	const int g = 4;
