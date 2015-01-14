@@ -21,14 +21,14 @@ int main()
 {
 	int num1 = 3, num2 = 4;
 	
-	//izvikva funkciata s dvata integera kato parametri
+	//izvikva funkciata s dvata parametura ot tip int
 	int result = Add(num1,num2);
 
 	cout << result << endl;
 
 	float num3 = 3.5, num4 = 4.6;
 
-	//izvikva funkciata s dvata floata kato parametri
+	//izvikva funkciata s dvata parametura ot tip float
 	float result1 = Add(num3,num4);
 
 	cout << result1 << endl;
