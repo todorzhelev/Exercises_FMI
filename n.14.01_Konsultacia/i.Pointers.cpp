@@ -9,17 +9,26 @@ int main()
 	//printirame adresa na promenlivata var
 	cout << "Address of var is: " << &var << endl;
 
+	////////////////////////////////////////////////////////////////
+	
+	//inicializirame ukazatelia pVar s adresa na var
 	int* pVar = &var;
 
+	////////////////////////////////////////////////////////////////
+	
 	int var2 = 15;
 	//trite definicii sa ekvivalentni
 	int* pVar1 = &var2;
 	int * pVar2 = &var2;
 	int *pVar3 = &var2;
 
+	////////////////////////////////////////////////////////////////
+	
 	int* pVarr1,pVarr2; //pVarr1 e ukazatel, pVarr2 e normalna promenliva ot tip int
-	int* pVarr3,*pVarr4 = &var2; //pVarr1 e nainicializiran ukazatel, a pVarr2 go inicializirame s adresa na var2
+	int* pVarr3,*pVarr4 = &var2; //pVarr3 e nainicializiran ukazatel, a pVarr4 go inicializirame s adresa na var2
 
+	////////////////////////////////////////////////////////////////
+	
 	int var4 = 777;
 	int* pVar4 = &var4;
 
@@ -33,6 +42,8 @@ int main()
 	//&var4 i pVar4 izkarvat edna i sushta stoinost
 	cout << "Address of var4 " << &var4 << " " << pVar4 << endl;
 
+	////////////////////////////////////////////////////////////////
+	
 	int* p = NULL;
 
 	if( p == NULL )
