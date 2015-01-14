@@ -21,7 +21,6 @@ int main()
 {
 	int number1 = 17, number2 = 31, number3 = 35;
 
-	//taka kodut e korigiran
 	bool isPrime = true;
 	for( int i = 2; i <= sqrt(number1); i++ )
 	{
