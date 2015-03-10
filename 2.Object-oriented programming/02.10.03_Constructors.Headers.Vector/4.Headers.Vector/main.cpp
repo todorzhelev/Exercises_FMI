@@ -9,5 +9,5 @@ int main()
 
 	cout << rec.GetPerimeter() << endl;
 
-	cin.get();
+	system("pause");
 }

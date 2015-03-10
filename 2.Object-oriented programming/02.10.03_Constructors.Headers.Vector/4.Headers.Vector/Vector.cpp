@@ -6,7 +6,8 @@ using namespace std;
 
 int main()
 {
-	//initialize the vector. Available from VS2013
+	//initialize the vector. 
+	//this type of initialization is available from VS2013
 	vector<int> arr{ 5, 8, 12, 3 };
 
 	//sets the size of the arr2 to be 10

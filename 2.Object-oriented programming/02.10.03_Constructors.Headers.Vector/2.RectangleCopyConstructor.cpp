@@ -40,6 +40,11 @@ public:
 	{
 		return m_width*m_height;
 	}
+	
+	int GetPerimeter()
+	{
+		return 2*m_width+2*m_height;
+	}
 
 private:
 	int m_width, m_height;
@@ -70,10 +75,11 @@ int main()
 	//Thats why copy constructor is invoked
 	Func(rec1); 
 
-	rec1 = Func2();
 	//Func2 returns Rectangle by copy so copy constructor is called
+	rec1 = Func2();
+	
 	cout << rec1.GetArea() << endl;
 
 
-	cin.get();
+	system("pause");
 }

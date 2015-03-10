@@ -7,19 +7,11 @@ enum Colors { Red, Green, Blue, Yellow };
 class Rectangle
 {
 public:
-	//default constructor. It doesn't have any parameters
 	Rectangle();
-
-	//constructor with parameters
 	Rectangle(int width, int height);
-
-	//we overload the constructor so we can pass the color too
 	Rectangle(int width, int height, Colors color);
-
 	Rectangle(const Rectangle& rec);
-
 	int GetArea();
-
 	int GetPerimeter();
 
 private:
@@ -72,5 +64,5 @@ int main()
 
 	cout << rec.GetPerimeter() << endl;
 
-	cin.get();
+	system("pause");
 }

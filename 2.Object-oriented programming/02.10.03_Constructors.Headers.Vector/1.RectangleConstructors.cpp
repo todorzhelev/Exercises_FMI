@@ -24,13 +24,6 @@ public:
 		m_height = height;
 	}
 
-	////constructor using initialization list
-	//Rectangle(int width, int height)
-	//	:m_width(width), m_height(height)
-	//{
-		//cout << "Constructor with 2 parameteres and initialization list" << endl;
-	//}
-
 	////the default value of height is 4
 	//Rectangle(int width, int height = 4)
 	//{
@@ -58,5 +51,5 @@ int main()
 {
 	Rectangle rec(10,12,Colors::Blue);
 
-	cin.get();
+	system("pause");
 }
