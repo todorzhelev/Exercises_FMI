@@ -24,7 +24,8 @@ public:
 		m_height = height;
 	}
 
-	//it can be also Rectangle& rec.
+	//copy constructor
+	//the parameter can also be Rectangle& rec.
 	//the const prevents the copied object to be modified
 	Rectangle(const Rectangle& rec)
 	{
