@@ -57,6 +57,8 @@ private:
 void Print(MyClass obj)
 {
 	int* pData = obj.GetData();
+
+	cout << "Values inside function Print" << endl;
 	for (int i = 0; i < obj.GetSize(); i++)
 	{
 		cout << pData[i] << endl;
@@ -76,6 +78,7 @@ int main()
 	//To prevent this we can either implement copy constructor and allocate new memory
 	//for m_pData in the copy or to pass objects by reference/pointer and not by copy
 
+	cout << "Values after Print is called" << endl;
 	int* pData = obj.GetData();
 	for (int i = 0; i < obj.GetSize(); i++)
 	{
