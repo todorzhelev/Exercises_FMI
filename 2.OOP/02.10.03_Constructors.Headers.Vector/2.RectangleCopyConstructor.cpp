@@ -70,7 +70,7 @@ int main()
 	Rectangle rec(5,7); //here is called the constructor with 2 parameters
 
 	//we initialize newly created object with another object, so the copy constructor is called
-	Rectangle rec1 = rec; 
+	Rectangle rec1 = rec; //this is similar to Rectangle rec1(rec);
 
 	//rec1 is passed by copy and inside the functions is created copy of rec1.
 	//Thats why copy constructor is invoked
