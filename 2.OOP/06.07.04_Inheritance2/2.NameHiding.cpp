@@ -34,7 +34,7 @@ public:
 		cout << "The meaning of life is 777" << endl;
 	}
 
-	//to fix this problem add this lane
+	//to fix this problem add this line
 	using Base::GetMeaningOfLife;
 };
 
