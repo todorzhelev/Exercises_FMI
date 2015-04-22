@@ -2,6 +2,7 @@
 #include<vector>
 using namespace std;
 
+//we create virtual function by writing virtual in front of member function in a class
 class Animal
 {
 public:
@@ -24,6 +25,9 @@ public:
 class Human : public Animal
 {
 public:
+
+	//we implement Human version of the function Walk
+	//this is called overriding
 	virtual void Walk()
 	{
 		cout << "Human walking" << endl;
@@ -64,7 +68,7 @@ int main()
 
 	//The code above is not good, becase for each new class (for instance class God, which inherits Human)
 	//we have to make new array. To solve this problem we use polymorphism.
-	//Polymorphism works only with references and pointers
+	//Polymorphism works only with references and pointers and when we use virtual functions
 	Human human;
 	Animal& animal = human;
 	animal.Walk();
