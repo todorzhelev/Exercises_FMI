@@ -63,12 +63,12 @@ public:
 		m_y = y;
 	}
 
-	double GetRadius() const
+	double GetRadius()
 	{
 		return sqrt(m_x*m_x + m_y*m_y);
 	}
 
-	double GetAngle() const 
+	double GetAngle() 
 	{
 		double angle = atan2(m_y, m_x);
 		return angle;
@@ -93,7 +93,7 @@ public:
 		return *this;
 	}
 
-	friend ostream& operator<<(ostream& stream, const Point& p);
+	friend ostream& operator<<(ostream& stream, Point& p);
 	friend istream& operator>>(istream& stream, Point& p);
 
 private:
@@ -102,7 +102,7 @@ private:
 	double m_x, m_y;
 };
 
-ostream& operator<<(ostream& stream, const Point& p)
+ostream& operator<<(ostream& stream, Point& p)
 {
 	stream << p.m_name << ": (" << p.GetRadius() << "," << ConvertToDegrees(p.GetAngle()) << ")" << endl;
 
