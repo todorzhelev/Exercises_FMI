@@ -56,7 +56,7 @@ public:
 	}
 
 	//if it is not reference it will make copy
-	//and we cant write v[5] = 100;
+	//and we cant write v[5] = 100 for instance;
 	T& operator[](int index)
 	{
 		return m_pData[index];

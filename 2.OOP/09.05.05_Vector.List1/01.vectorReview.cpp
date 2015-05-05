@@ -18,10 +18,5 @@ int main()
 	cout << v.back() << endl; //4
 	cout << v.front() << endl; //3
 
-	//vector<string> v1;
-	//v1.push_back("aut vincere");
-	//v1.push_back("aut mori");
-	//cout << v1.back() << endl; //aut mori
-
 	system("pause");
 }
