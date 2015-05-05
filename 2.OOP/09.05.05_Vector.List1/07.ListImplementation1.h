@@ -54,7 +54,7 @@ public:
 		m_size++;
 	}
 
-public:
+private:
 
 	int m_size;
 	Node* m_pHead;
