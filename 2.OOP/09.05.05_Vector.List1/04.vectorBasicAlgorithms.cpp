@@ -14,6 +14,8 @@ int main()
 	cout << "find:" << endl;
 	int number = 127;
 	//int number = 128;
+	//find returns iterator to the found element. 
+	//If the element is not found it returns iterator to the end
 	auto it = find(v.begin(), v.end(), number);
 
 	if (it != v.end())
@@ -28,6 +30,7 @@ int main()
 
 	//insert
 	cout << "insert:" << endl;
+	//inserts 1024 at begin position
 	v.insert(v.begin(), 1024);
 	for (auto element : v)
 	{
@@ -37,6 +40,7 @@ int main()
 	cout << endl;
 
 	auto it1 = v.begin();
+	//inserts 16 one position after begin
 	v.insert(it1+1, 16);
 	for (auto element : v)
 	{
@@ -59,6 +63,7 @@ int main()
 	//sort
 	cout << "sort:" << endl;
 
+	//sort all the elements from begin to end
 	sort(v.begin(), v.end());
 	for (auto element : v)
 	{
