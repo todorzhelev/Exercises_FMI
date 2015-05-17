@@ -15,6 +15,8 @@ int main()
 
 	//the type of the variable is vector<int>::iterator
 	vector<int>::iterator it = v.begin(); //begin() returns iterator to first element of collection
+	//iterator points to element in the collection.
+	//to get the element value we have to write * before it
 	cout << *it << endl; //11
 
 	//end() returns iterator one position after the end
